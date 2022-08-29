@@ -103,7 +103,7 @@ function Stats() {
               if (curtoken == 1) {
                 return (
                   <iframe id="tradingview_142d6" name="tradingview_142d6"
-                    src="https://dex.guru/token/0xee6b9cf11d968e0bac7bfff547577b8ae35b8065-eth"
+                    src="https://dex.guru/token/0x29db8abd21f2ffdf5da9b2e4bbdd70f8b47b15f2-bsc"
                     frameBorder="0" allowTransparency="true"
                     scrolling="no" allowFullScreen="" style={{ display: "block", width: "100%", height: "600px" }} />
 
@@ -158,7 +158,7 @@ function Stats() {
                       value={curtoken}
                       onChange={handleTokenChange}
                     >
-                      <MenuItem value={1}>MKONG</MenuItem>
+                      <MenuItem value={1}>MHD</MenuItem>
                       <MenuItem value={2}>ETH</MenuItem>
                       <MenuItem value={3}>BTC</MenuItem>
                       <MenuItem value={4}>BNB</MenuItem>
