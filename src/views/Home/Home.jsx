@@ -20,8 +20,7 @@ import { shorten } from "../../helpers";
 import gorila from "../../assets/gorila.svg";
 import homebg from "../../assets/home_bg.png";
 import statsframe from "../../assets/stats-bg.png";
-import homeframe from "../../assets/pinkswap.a95de4f3.png";
-// import homeframe from "../../assets/home_frame.png";
+import homeframe from "../../assets/home_frame.png";
 import { Card, Table, Badge, Dropdown, ProgressBar, Row, Col } from "react-bootstrap";
 
 const useStyles = makeStyles(theme => ({
