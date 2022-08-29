@@ -1,0 +1,44 @@
+.token-balance-container {
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border-color: rgb(255 1 1); */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border: none; */
+    border-bottom: #0005;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 16px;
+    /* border-top: blue; */
+    /* border-top-width: 1px; */
+    /* border-top-style: solid; */
+
+    .token-symbol {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        .logo {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: aqua;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .token-name {
+        align-self: center;
+    }
+
+    .token-balance {
+        align-self: center;
+    }
+    
+}
+
+.token-balance-container:hover {
+    background-color: #fff1;
+}

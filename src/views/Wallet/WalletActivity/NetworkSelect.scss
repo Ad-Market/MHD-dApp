@@ -1,0 +1,52 @@
+.select-container {
+    border-radius: 37px;
+    border: 1px !important;
+    background: #9F9F9F !important;
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.25);
+    padding: 0px 10px 0px 0px !important;
+
+    fieldset {
+        border: 0px !important;
+        color: #000 !important;
+    }
+
+    .MuiInput-underline:before {
+        border-bottom: none !important;
+    }
+
+    .MuiInput-underline:after {
+        border-bottom: none !important;
+    }
+
+}
+
+
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .network-icon {
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+}
+
+.menu-item-caption {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.MuiMenu-list {
+    background: #3d124c !important;
+}
+
+.MuiSelect-select:focus {
+    background-color: #0000 !important;
+}
+
+.MuiPaper-elevation8 {
+    box-shadow: none !important;
+}
