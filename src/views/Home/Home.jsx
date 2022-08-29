@@ -98,7 +98,7 @@ function Home() {
         <Col>
           <div style={{display:"flex", justifyContent:"left", marginTop: "40px", marginBottom:"30px"}}>
             <Typography style={{color: "#FF45A5", fontSize:"60px", lineHeight:"1.1", fontWeight:"600"}}>
-              MEME KONG
+              My Happy Doge
             </Typography>
           </div>
           <div style={{display:"flex", justifyContent:"left", marginTop: "20px", marginBottom: "30px", fontFamily: "Roboto"}}>
@@ -109,7 +109,7 @@ function Home() {
           <Grid container spacing={3} className="data-grid">
             <Grid item lg={12} md={12} sm={12} xs={12}>
               <Typography variant="h3" style={{fontSize:"20px", fontWeight:"300"}}>
-                You deserve more. Meme Kong unites community and utility in the first hybrid token.
+                You deserve more. MHD Token unites community and utility in the first hybrid token.
               </Typography>
             </Grid>
           </Grid>
@@ -124,7 +124,7 @@ function Home() {
       </div>
 
 
-      <div style={{marginTop: "50px", display:"flex", width:"100%"}}><iframe loading="lazy" src="https://teams.bogged.finance/embeds/chart?address=0x29db8abd21f2ffdf5da9b2e4bbdd70f8b47b15f2&amp;chain=bsc&amp;charttype=candles&amp;theme=light&amp;defaultinterval=1h&amp;showchartbutton=true" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
+      <div style={{marginTop: "50px", display:"flex", width:"100%"}}><iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
         </iframe>
       </div>
