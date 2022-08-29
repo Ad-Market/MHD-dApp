@@ -124,7 +124,7 @@ function Home() {
       </div>
 
 
-      <div style={{marginTop: "50px", display:"flex", width:"100%"}}><iframe loading="lazy" src="https://teams.bogged.finance/embeds/chart?address=0x29db8abd21f2ffdf5da9b2e4bbdd70f8b47b15f2" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
+      <div style={{marginTop: "50px", display:"flex", width:"100%"}}><iframe loading="lazy" src="https://teams.bogged.finance/embeds/chart?address=0x29db8abd21f2ffdf5da9b2e4bbdd70f8b47b15f2&amp;chain=bsc&amp;charttype=candles&amp;theme=light&amp;defaultinterval=1h&amp;showchartbutton=true" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
         </iframe>
       </div>
