@@ -124,7 +124,7 @@ function Home() {
       </div>
 
 
-      <div style={{marginTop: "50px", display:"flex", width:"100%"}}><iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
+      <div style={{marginTop: "50px", display:"flex"}}><iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
         </iframe>
       </div>
