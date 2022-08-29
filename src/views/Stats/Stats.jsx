@@ -60,7 +60,7 @@ function Stats() {
     try {
       let data = null
       if (curtoken == 1) {
-        data = await getDataFromCoingecko('meme-kong');
+        data = await getDataFromCoingecko('mhd');
       } else if (curtoken == 2) {
         data = await getDataFromCoingecko('ethereum');
       } else if (curtoken == 3) {
