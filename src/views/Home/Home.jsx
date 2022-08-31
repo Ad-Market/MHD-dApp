@@ -120,7 +120,7 @@ function Home() {
       </Row>
       
       <div style={{marginTop: "50px"}}>
-        <iframe loading="lazy" src="https://app.uniswap.org/#/swap?theme=dark&use=v1?outputCurrency=" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
+        <iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
         </iframe>
       </div>
