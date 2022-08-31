@@ -1,4 +1,11 @@
-import { useDispatch,useSelector } from "react-redux";
+<Route exact path="/">
+
+    <Redirect to="/home" />
+
+</Route>
+
+
+/* import { useDispatch,useSelector } from "react-redux";
 import { Paper, Grid, Typography, Box, Zoom,Button, SvgIcon, useMediaQuery, Container, makeStyles } from "@material-ui/core";
 import {useEffect,useCallback, useMemo} from 'react'
 import { useWeb3Context } from "src/hooks/web3Context";
@@ -88,7 +95,7 @@ function Home() {
       <img src={Bg} alt="" className="bg" />
     </div> */}
     
-    <img src={gorila} className={smallerScreen? classes.lgorilla_style_mobile : classes.lgorilla_style}/>
+    /* <img src={gorila} className={smallerScreen? classes.lgorilla_style_mobile : classes.lgorilla_style}/>
     <img src={gorila} className={smallerScreen? classes.rgorilla_style_mobile : classes.rgorilla_style}/>
     <Container
         style={{
@@ -131,4 +138,4 @@ function Home() {
   </div>
 }
 
-export default Home;
+export default Home; */
