@@ -6,7 +6,7 @@ import InfoTooltipMulti from "../../components/InfoTooltip/InfoTooltipMulti";
 
 import TabPanel from "../../components/TabPanel";
 import CardHeader from "../../components/CardHeader/CardHeader";
-import "./presale.scss";
+// import "./presale.scss";
 import { addresses, POOL_GRAPH_URLS } from "../../constants";
 import { useWeb3Context } from "../../hooks";
 import { apolloExt } from "../../lib/apolloClient";
@@ -318,7 +318,7 @@ export default Swap;
 import { Paper, Grid, Typography, Box, Zoom,Button, SvgIcon, useMediaQuery, Container, makeStyles } from "@material-ui/core";
 import {useEffect,useCallback, useMemo} from 'react'
 import { useWeb3Context } from "src/hooks/web3Context";
-import "./home.scss";
+import "./home.s";
 
 import Bg from '../../assets/ohm/bg.png'
 import { Link } from "react-router-dom";
