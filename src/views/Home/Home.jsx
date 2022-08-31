@@ -2,7 +2,7 @@ import { useDispatch,useSelector } from "react-redux";
 import { Paper, Grid, Typography, Box, Zoom,Button, SvgIcon, useMediaQuery, Container, makeStyles } from "@material-ui/core";
 import {useEffect,useCallback, useMemo} from 'react'
 import { useWeb3Context } from "src/hooks/web3Context";
-import "./home";
+import "./home.scss";
 
 import Bg from '../../assets/ohm/bg.png'
 import { Link } from "react-router-dom";
