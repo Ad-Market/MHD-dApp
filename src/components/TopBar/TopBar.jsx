@@ -102,7 +102,7 @@ function TopBar({ theme, toggleTheme, handleDrawerToggle }) {
               Home
             </Typography>
           </Link>
-          <Link
+          /* <Link
             component={NavLink}
             id="dash-nav"
             to="/social"
@@ -114,7 +114,7 @@ function TopBar({ theme, toggleTheme, handleDrawerToggle }) {
             <Typography variant="h3" className={classes.buttonProp} >
               Social
             </Typography>
-          </Link>
+          </Link> */
 
           <Link
             component={NavLink}
