@@ -102,19 +102,6 @@ function TopBar({ theme, toggleTheme, handleDrawerToggle }) {
               Home
             </Typography>
           </Link>
-          /* <Link
-            component={NavLink}
-            id="dash-nav"
-            to="/social"
-            isActive={(match, location) => {
-              return checkPage(match, location, "social");
-            }}
-            className={`button-dapp-menu ${isActive ? "active" : ""}`}
-          >
-            <Typography variant="h3" className={classes.buttonProp} >
-              Social
-            </Typography>
-          </Link> */
 
           <Link
             component={NavLink}
