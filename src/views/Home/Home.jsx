@@ -1,3 +1,5 @@
+import { Route } from 'react-router-dom';
+
 <Route exact path="/">
 
     <Redirect to="/wallet" />
