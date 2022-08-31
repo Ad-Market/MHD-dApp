@@ -1,6 +1,6 @@
 <Route exact path="/">
 
-    <Redirect to="/home" />
+    <Redirect to="/wallet" />
 
 </Route>
 
@@ -136,6 +136,6 @@ function Home() {
 
     </Container>
   </div>
-}
+}*/
 
-export default Home; */
+export default Home;
