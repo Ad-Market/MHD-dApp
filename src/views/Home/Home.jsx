@@ -17,7 +17,7 @@ import { trim } from "../../helpers/index";
 import { Typography, Button, Zoom } from "@material-ui/core";
 import { Skeleton } from "@material-ui/lab";
 import { error, info } from "../../slices/MessagesSlice";
-import { PresaleCard } from "./PresaleCard";
+// import { PresaleCard } from "./PresaleCard";
 // import { FairLaunchCard } from "./FairLaunchCard";
 
 function a11yProps(index) {
