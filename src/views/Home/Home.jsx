@@ -121,11 +121,21 @@ function Home() {
         </Col>
       </Row>
       
+     <Col style={{display:"flex", justifyContent:""}}>
       <div style={{marginTop: "50px"}}>
         <iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
         </iframe>
       </div>
+     </Col>
+
+    <Col style={{display:"flex", justifyContent:""}}>
+      <div style={{marginTop: "50px"}}>
+        <iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
+        id="myId" width="100%" height="600px">
+        </iframe>
+      </div>
+     </Col>
 
     </Container>
   </div>
