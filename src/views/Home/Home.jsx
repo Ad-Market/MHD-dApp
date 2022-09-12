@@ -1,13 +1,4 @@
-import { Route } from 'react-router-dom';
-
-<Route exact path="/">
-
-    <Redirect to="/wallet" />
-
-</Route>
-
-
-/* import { useDispatch,useSelector } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
 import { Paper, Grid, Typography, Box, Zoom,Button, SvgIcon, useMediaQuery, Container, makeStyles } from "@material-ui/core";
 import {useEffect,useCallback, useMemo} from 'react'
 import { useWeb3Context } from "src/hooks/web3Context";
@@ -91,13 +82,13 @@ function Home() {
   const verySmallScreen = useMediaQuery("(max-width: 379px)");
   const classes = useStyles();
 
-  return <div id="home_tarzan" className={classes.bg_image}> */
+  return <div id="home_tarzan" className={classes.bg_image}>
 
     {/* <div className="boodyBox fxColumn">
       <img src={Bg} alt="" className="bg" />
     </div> */}
     
-    /* <img src={gorila} className={smallerScreen? classes.lgorilla_style_mobile : classes.lgorilla_style}/>
+    <img src={gorila} className={smallerScreen? classes.lgorilla_style_mobile : classes.lgorilla_style}/>
     <img src={gorila} className={smallerScreen? classes.rgorilla_style_mobile : classes.rgorilla_style}/>
     <Container
         style={{
@@ -138,6 +129,6 @@ function Home() {
 
     </Container>
   </div>
-}*/
+}
 
 export default Home;
