@@ -121,7 +121,7 @@ function Home() {
         </Col>
       </Row>
       
-     <Col style={{display:"flex", justifyContent:""}}>
+     <Col style={{display:"flex", justifyContent:"center"}}>
       <div style={{marginTop: "50px"}}>
         <iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
@@ -129,7 +129,7 @@ function Home() {
       </div>
      </Col>
 
-    <Col style={{display:"flex", justifyContent:""}}>
+    <Col style={{display:"flex", justifyContent:"center"}}>
       <div style={{marginTop: "50px"}}>
         <iframe loading="lazy" src="https://swap.mhd.community" style={{border:"0px", margin:"0px auto", display:"block", borderRadius:"20px", maxWidth:"600px"}}
         id="myId" width="100%" height="600px">
