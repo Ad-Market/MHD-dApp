@@ -86,7 +86,8 @@ function TopBar({ theme, toggleTheme, handleDrawerToggle }) {
       {isSmallScreen ? <div> </div> : 
       <div className={classes.logo}>
         <a href="https://wallet.mhd.community/" target="blank">
-          <img src={LogoImg} alt="" style={{ height: "40px" }} />
+          // <img src={LogoImg} alt="" style={{ height: "40px" }} />
+          <img src="https://mhd.community/assets/images/screen-mhd-pro.svg" style={{ height: "40px" }} />
         </a>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <Link
